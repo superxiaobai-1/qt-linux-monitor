@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
-Name=System Monitor
+Name=Sor-bai
 Comment=View current processes and monitor system state
 Type=Application
-Icon=utilities-system-monitor
 Terminal=false
-Exec=system-monitor
+Exec=/tmp/system-monitor
 Categories=Utility
+Icon=/tmp/test.jpeg
 Keywords=Monitor;System;Process;CPU;Memory;Network;History;Usage;Performance;Task;Manager;

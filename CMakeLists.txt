@@ -81,8 +81,8 @@ else()
 endif()
 
 # Installation directives
-install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION /usr/bin)
-
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION /tmp)
+install(FILES  test.jpeg  DESTINATION /tmp)
 install(FILES system-monitor.desktop DESTINATION /usr/share/applications)
 
 # Uncomment and edit the following lines if you have an icon to install

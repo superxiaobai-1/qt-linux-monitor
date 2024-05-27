@@ -34,5 +34,7 @@ docker run -it -d \
 -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR \
 -v ${MONITOR_HOME_DIR}:/work \
 -v ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR} \
+-v /usr/share/applications:/usr/share/applications \
+-v /tmp:/tmp \
 --net host \
 linux:monitor
